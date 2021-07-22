@@ -1,0 +1,8 @@
+.formGroup {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.4rem;
+  label {
+    padding: 0 0.5rem;
+  }
+}

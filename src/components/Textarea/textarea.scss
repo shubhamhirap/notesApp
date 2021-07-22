@@ -1,0 +1,9 @@
+.textareaEle {
+  padding: 0.4rem;
+  font-weight: 600;
+  border-radius: 5px;
+
+  &:focus {
+    outline-color: #1f51ff;
+  }
+}

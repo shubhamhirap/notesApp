@@ -1,0 +1,11 @@
+.form-container {
+  width: 35%;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1.25rem;
+
+  .label-container {
+    display: flex;
+    justify-content: center;
+  }
+}

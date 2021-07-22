@@ -1,0 +1,13 @@
+.card-container {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px;
+
+  .button-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+}

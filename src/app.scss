@@ -1,0 +1,13 @@
+.app-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.9rem;
+  .app-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top: 5.3rem;
+  }
+}

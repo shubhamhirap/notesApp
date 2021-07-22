@@ -1,0 +1,41 @@
+.btn {
+  height: 2rem;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0 15px;
+  &.primary {
+    background-color: #1f51ff;
+    &:hover {
+      background-color: #4169e1;
+    }
+  }
+
+  &.danger {
+    background-color: #ff3131;
+    &:hover {
+      background-color: #e35335;
+    }
+  }
+
+  &.warning {
+    background-color: #f4c430;
+    &:hover {
+      background-color: #ffdb58;
+    }
+  }
+
+  &.small {
+    height: auto;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 12px;
+  }
+
+  &.disabled {
+    background-color: #a5a7a8;
+  }
+}
